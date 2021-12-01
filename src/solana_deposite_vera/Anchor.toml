@@ -1,0 +1,12 @@
+[programs.devnet]
+vera_contract = "9WNvE8cqebwN8uvAAQ6X5Wk3RvGrknL1y3p7F6ygbs1w"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/sheng/blockchain/works/Solana-IDO/wallet/vera-keypair.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"

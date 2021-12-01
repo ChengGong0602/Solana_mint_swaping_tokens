@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "declaration": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": [
+      "es2019"
+    ]
+  },
+  "include": ["src/client/**/*"],
+  "exclude": ["node_modules"]
+}
